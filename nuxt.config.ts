@@ -9,4 +9,5 @@ export default defineNuxtConfig({
       { name: 'IBM Plex Sans', provider: 'google' },
     ],
   },
+  css: ['~/assets/css/main.css'],
 });
