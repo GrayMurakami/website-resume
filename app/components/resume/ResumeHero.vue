@@ -51,16 +51,11 @@ onUnmounted(() => {
         <div class="prompt-label">
           $ whoami
         </div>
-        <h1>
-          Sergei Zuev
-          <span class="cursor">
-            _
-          </span>
-        </h1>
+        <h1>Sergei Zuev<span class="cursor">_</span></h1>
         <div class="role-line">
           &gt; Frontend Developer — Vue 3 / Nuxt 4
         </div>
-        <div class="sub-line">
+        <div class="sub-role">
           JavaScript (ES6+) · TypeScript
         </div>
         <div class="sub-line">
@@ -161,8 +156,8 @@ onUnmounted(() => {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  margin-top: 10px;
-  margin-right: 14px;
+  margin-top: 15px;
+  margin-right: 20px;
   background: repeating-linear-gradient(135deg, oklch(0.93 0.02 148), oklch(0.93 0.02 148) 6px, oklch(0.88 0.03 148) 6px, oklch(0.88 0.03 148) 12px);
   border: 1px solid var(--card-border);
   display: flex;
@@ -212,19 +207,21 @@ h1 {
 
 .role-line { 
   font-family: var(--mono);
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: bold;
   color: var(--accent);
+}
+
+.sub-role {
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--text-muted);
   margin-bottom: 10px;
 }
 
 .sub-line { 
-  color: var(--text-muted);
   font-size: 13.5px;
-}
-
-.sub-line + .sub-line { 
-  margin-top: 2px;
+  color: var(--text-muted); 
 }
 
 .hero-footer {
@@ -252,6 +249,7 @@ h1 {
 .contact-icon {
   width: 15px;
   height: 15px;
+  margin-right: 3px;
   object-fit: contain;
   vertical-align: -2px;
 }
