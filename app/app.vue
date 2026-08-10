@@ -9,6 +9,13 @@
       </span>
     </div>
     <ResumeHero />
+    <div class="section-label">
+      $ cat summary.md
+    </div>
+    <p class="summary">
+      Заглушка summary
+    </p>
+    <ResumeStats />
   </div>
 </template>
 
