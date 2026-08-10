@@ -135,7 +135,7 @@ onUnmounted(() => {
           :class="{ pulse: isPulsing }"
           :style="{ transform: btnTransform }"
         >
-          <!--⬇️-->&#11015; Download PDF
+          &#11015; Download PDF
         </a>
       </div>
     </div>
@@ -173,6 +173,7 @@ onUnmounted(() => {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transform: scale(1.15) translateX(-6%) translateY(5%);
 }
 
 .hero-main { 
