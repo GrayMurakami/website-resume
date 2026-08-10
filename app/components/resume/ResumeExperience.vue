@@ -69,10 +69,16 @@
     </p>
     <div class="tag-row">
       <span class="tag">
-        #oracle
+        #rhel8.6
+      </span>
+      <span class="tag">
+        #bash
       </span>
       <span class="tag">
         #sql
+      </span>
+      <span class="tag">
+        #oracle
       </span>
       <span class="tag">
         #linux-administration

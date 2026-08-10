@@ -27,6 +27,8 @@ import ResumeProjects from './components/resume/ResumeProjects.vue';
     <ResumeProjects />
       <div class="rule"></div>
     <ResumeExperience />
+      <div class="rule"></div>
+    <ResumeEducation />
   </div>
 </template>
 
