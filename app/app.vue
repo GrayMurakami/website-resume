@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import ResumeExperience from './components/resume/ResumeExperience.vue';
 import ResumeProjects from './components/resume/ResumeProjects.vue';
 
 </script>
@@ -22,8 +23,10 @@ import ResumeProjects from './components/resume/ResumeProjects.vue';
     </p>
     <ResumeStats />
     <ResumeSkills />
-    <div class="rule"></div>
+      <div class="rule"></div>
     <ResumeProjects />
+      <div class="rule"></div>
+    <ResumeExperience />
   </div>
 </template>
 
