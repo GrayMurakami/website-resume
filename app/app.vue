@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import ResumeProjects from './components/resume/ResumeProjects.vue';
+
+</script>
+
 <template>
   <div class="page">
     <div class="titlebar">
@@ -17,6 +22,8 @@
     </p>
     <ResumeStats />
     <ResumeSkills />
+    <div class="rule"></div>
+    <ResumeProjects />
   </div>
 </template>
 
