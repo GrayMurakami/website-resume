@@ -45,7 +45,14 @@ onUnmounted(() => {
   <div class="hero">
     <div class="hero-top">
       <div class="avatar-slot">
-        photo
+        <NuxtImg
+          src="/photo.png"
+          alt="Sergei Zuev"
+          width="100"
+          height="100"
+          format="webp"
+          class="avatar-img"
+        />
       </div>
       <div class="hero-main">
         <div class="prompt-label">
@@ -128,7 +135,7 @@ onUnmounted(() => {
           :class="{ pulse: isPulsing }"
           :style="{ transform: btnTransform }"
         >
-          ⬇️ Download PDF
+          <!--⬇️-->&#11015; Download PDF
         </a>
       </div>
     </div>
@@ -156,18 +163,16 @@ onUnmounted(() => {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  margin-top: 15px;
-  margin-right: 20px;
-  background: repeating-linear-gradient(135deg, oklch(0.93 0.02 148), oklch(0.93 0.02 148) 6px, oklch(0.88 0.03 148) 6px, oklch(0.88 0.03 148) 12px);
+  margin-top: 10px;
+  margin-right: 14px;
+  overflow: hidden;
   border: 1px solid var(--card-border);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--mono);
-  font-size: 9px;
-  color: oklch(0.45 0.02 148);
-  text-align: center;
-  line-height: 1.3;
+}
+
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .hero-main { 
