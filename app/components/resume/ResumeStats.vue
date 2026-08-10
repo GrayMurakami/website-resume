@@ -16,13 +16,13 @@ const stats = ref<Stat[]>([
     display: '0'
   },
   {
-    label: 'Lines of code written',
-    target: 222000,
+    label: '💻 Lines of code shipped',
+    target: 222007,
     suffix: '+',
     display: '0'
   },
   {
-    label: 'Cups of coffee brewed along the way',
+    label: '☕ Coffee cups onboarded',
     target: 8007,
     suffix: '+',
     display: '0'

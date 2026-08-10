@@ -42,6 +42,36 @@ a:hover {
   color: oklch(0.16 0.004 255);
 }
 
+.section-label {
+  font-family: var(--mono);
+  color: var(--accent-strong);
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 4px 11px;
+  border-radius: 4px;
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--accent-strong);
+  white-space: nowrap;
+}
+
+.rule {
+  border-top: 1px solid var(--line);
+  margin: 26px 0;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;

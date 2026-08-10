@@ -16,6 +16,7 @@
       Заглушка summary
     </p>
     <ResumeStats />
+    <ResumeSkills />
   </div>
 </template>
 
