@@ -18,7 +18,7 @@
           Live project
         </span>
         <span class="project-arrow">
-          ↗
+          &#128279;
         </span>
       </div>
       <p class="project-desc">
@@ -44,7 +44,7 @@
           General · older
         </span>
         <span class="project-arrow">
-          ↗
+          &#128279;
         </span>
       </div>
       <p class="project-desc">

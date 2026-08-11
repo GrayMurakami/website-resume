@@ -69,7 +69,7 @@
     </p>
     <div class="tag-row">
       <span class="tag">
-        #rhel8.6
+        #rhel
       </span>
       <span class="tag">
         #bash
@@ -131,7 +131,7 @@
 
 <style scoped>
 .exp-item {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   border-left: 2px solid var(--card-border);
   padding-left: 16px;
 }

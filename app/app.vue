@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import ResumeExperience from './components/resume/ResumeExperience.vue';
+import ResumeLanguages from './components/resume/ResumeLanguages.vue';
 import ResumeProjects from './components/resume/ResumeProjects.vue';
 
 </script>
@@ -22,6 +23,7 @@ import ResumeProjects from './components/resume/ResumeProjects.vue';
       Заглушка summary
     </p>
     <ResumeStats />
+      <div class="rule"></div>
     <ResumeSkills />
       <div class="rule"></div>
     <ResumeProjects />
@@ -29,6 +31,8 @@ import ResumeProjects from './components/resume/ResumeProjects.vue';
     <ResumeExperience />
       <div class="rule"></div>
     <ResumeEducation />
+      <div class="rule"></div>
+    <ResumeLanguages />
   </div>
 </template>
 
