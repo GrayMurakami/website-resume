@@ -48,7 +48,7 @@
         </span>
       </div>
       <p class="project-desc">
-        An earlier collection of personal Vue 3 / Nuxt 4 experiments — SPA builds,
+        An earlier collection of personal Vue 3 / Nuxt 4 experiments - SPA builds,
         API integrations, and UI/UX practice pieces.
       </p>
       <div class="project-meta">

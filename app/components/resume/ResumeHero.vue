@@ -126,12 +126,26 @@ onUnmounted(() => {
       <div class="dl-wrap">
         <a 
           ref="dlBtn"
-          href="/sergei-zuev-resume.pdf"
+          href="/Sergei_Zuev_Frontend_Developer_CV.pdf"
           download
           class="dl-btn"
           :style="{ transform: btnTransform }"
         >
-          &#11015; Download PDF
+          <svg 
+            width="16" 
+            height="16" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            stroke="currentColor" 
+            stroke-width="2" 
+            stroke-linecap="round" 
+            stroke-linejoin="round"
+          >
+            <path d="M12 3v12" />
+            <path d="M7 10l5 5 5-5" />
+            <path d="M4 19h16" />
+          </svg> 
+            Download PDF
         </a>
       </div>
     </div>
@@ -302,7 +316,7 @@ h1 {
   .role-line {
     font-size: 14px;
   }
-  
+
   .contacts {
     grid-template-columns: 1fr;
   }

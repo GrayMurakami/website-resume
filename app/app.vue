@@ -1,9 +1,3 @@
-<script setup lang="ts">
-import ResumeExperience from './components/resume/ResumeExperience.vue';
-import ResumeLanguages from './components/resume/ResumeLanguages.vue';
-import ResumeProjects from './components/resume/ResumeProjects.vue';
-
-</script>
 
 <template>
   <div class="page">
