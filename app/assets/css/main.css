@@ -46,7 +46,7 @@ a:hover {
   font-family: var(--mono);
   color: var(--accent-strong);
   font-size: 13px;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
 }
 
 .tag-row {

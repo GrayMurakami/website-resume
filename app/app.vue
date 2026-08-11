@@ -20,7 +20,13 @@ import ResumeProjects from './components/resume/ResumeProjects.vue';
       $ cat summary.md
     </div>
     <p class="summary">
-      Заглушка summary
+      Five years building frontend for two very different environments: a corporate portal running on legacy WordPress/PHP, and an early-stage SaaS product where nothing existed yet and every UI decision was mine to make. I like the first kind of work as much as the second. There's a particular satisfaction in dropping a Vue 3 component into a stack that's never seen one and watching it not break anything.
+    </p>
+    <p class="summary">
+      Currently splitting time between frontend at a Japanese IT company and a security patch role at HPE. The two sound unrelated, but the HPE side has been a crash course in the kind of process discipline that startups never teach you.
+    </p>
+    <p class="summary">
+      At this point I know what I want: to keep growing specifically as a Vue frontend developer, going deeper into Vue 3 and Nuxt rather than spreading across frameworks. Looking for a team building an actual product, not another internal tool nobody asks for.
     </p>
     <ResumeStats />
       <div class="rule"></div>
