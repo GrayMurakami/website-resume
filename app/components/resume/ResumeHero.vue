@@ -7,7 +7,6 @@ import linkedinIcon from '~/assets/icons/linkedin.png';
 
 const dlBtn = ref<HTMLElement | null>(null);
 const btnTransform = ref('translate(0, 0)');
-const isPulsing = ref(true);
 
 const MAGNET_RADIUS = 70;
 const MAGNET_STRENGTH = 0.35;
@@ -23,12 +22,10 @@ function handleMouseMove(e: MouseEvent) {
   const dist = Math.hypot(dx, dy);
 
   if (dist < MAGNET_RADIUS + rect.width / 2) {
-    isPulsing.value = false;
     const pull = Math.max(0, 1 - dist / (MAGNET_RADIUS + rect.width));
     btnTransform.value = `translate(${dx * MAGNET_STRENGTH * pull}px, ${dy * MAGNET_STRENGTH * pull}px)`;
   } else {
     btnTransform.value = 'translate(0, 0)';
-    isPulsing.value = true;
   }
 }
 
@@ -132,7 +129,6 @@ onUnmounted(() => {
           href="/sergei-zuev-resume.pdf"
           download
           class="dl-btn"
-          :class="{ pulse: isPulsing }"
           :style="{ transform: btnTransform }"
         >
           &#11015; Download PDF
@@ -163,8 +159,8 @@ onUnmounted(() => {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  margin-top: 10px;
-  margin-right: 14px;
+  margin-top: 14px;
+  margin-right: 24px;
   overflow: hidden;
   border: 1px solid var(--card-border);
 }
@@ -272,24 +268,11 @@ h1 {
   font-weight: 600;
   padding: 12px 20px;
   border-radius: 999px;
+  border: 1px solid oklch(0.63 0.19 25);
   white-space: nowrap;
   cursor: pointer;
-  border: none;
   text-decoration: none;
   transition: transform 0.15s ease-out;
-}
-
-.dl-btn.pulse {
-  animation: pulse-glow 2.4s ease-in-out infinite;
-}
-
-@keyframes pulse-glow {
-  0%, 100% { 
-    box-shadow: 0 0 0 0 oklch(0.5 0.16 148 / 0.45);
-  }
-  50% { 
-    box-shadow: 0 0 0 10px oklch(0.5 0.16 148 / 0);
-  }
 }
 
 .dl-btn:active { 

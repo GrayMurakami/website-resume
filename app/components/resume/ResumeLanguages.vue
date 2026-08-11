@@ -115,7 +115,7 @@ onMounted(() => {
 }
 
 .lang-outer.native {
-  box-shadow: 0 0 0 3px var(--paper), 0 0 0 4px oklch(0.5 0.16 148 / 0.7);
+  box-shadow: 0 0 0 3px var(--paper), 0 0 0 4px oklch(0.35 0.12 148);
 }
 
 .lang-inner {
