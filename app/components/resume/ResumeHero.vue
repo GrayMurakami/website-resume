@@ -57,7 +57,13 @@ onUnmounted(() => {
         </div>
         <h1>Sergei Zuev<span class="cursor">_</span></h1>
         <div class="role-line">
-          &gt; Frontend Developer — Vue 3 / Nuxt 4
+          <span>
+            &gt; Frontend Developer 
+          </span>
+          <br class="role-break">
+          <span>
+            Vue&nbsp;3 / Nuxt&nbsp;4
+          </span>
         </div>
         <div class="sub-role">
           JavaScript (ES6+) · TypeScript
@@ -315,6 +321,10 @@ h1 {
 
   .role-line {
     font-size: 14px;
+  }
+
+  .role-break {
+    display: block;
   }
 
   .contacts {
