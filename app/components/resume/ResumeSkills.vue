@@ -129,4 +129,14 @@
   margin-bottom: 8px;
   color: var(--text-strong);
 }
+
+@media (max-width: 480px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "frontend"
+      "tools"
+      "backend";
+  }
+}
 </style>

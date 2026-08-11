@@ -73,13 +73,14 @@ onMounted(() => {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 14px;
+  margin-top: 22px;
   margin-bottom: 26px;
 }
 
 .stat-card {
   border: 1px solid var(--card-border);
   border-radius: 8px;
-  padding: 14px 16px;
+  padding: 13px 22px;
   background: var(--card);
 }
 
@@ -95,5 +96,11 @@ onMounted(() => {
   font-size: 11.5px;
   color: var(--text-muted);
   margin-top: 2px;
+}
+
+@media (max-width: 480px) {
+  .stats {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

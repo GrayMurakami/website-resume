@@ -49,6 +49,11 @@ a:hover {
   margin-bottom: 18px;
 }
 
+.summary { 
+  margin: 0 0 12px 0;
+  color: var(--text-body);
+}
+
 .tag-row {
   display: flex;
   flex-wrap: wrap;

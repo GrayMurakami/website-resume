@@ -278,4 +278,44 @@ h1 {
 .dl-btn:active { 
   transform: scale(0.96);
 }
+
+@media (max-width: 480px) {
+  .hero-top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 14px;
+  }
+
+  .avatar-slot {
+    margin: 0;
+  }
+
+  .hero-main {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  .role-line {
+    font-size: 14px;
+  }
+  
+  .contacts {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dl-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
 </style>

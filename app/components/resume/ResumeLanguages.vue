@@ -141,4 +141,10 @@ onMounted(() => {
   font-size: 10.5px;
   color: var(--text-muted);
 }
+
+@media (max-width: 480px) {
+  .langs {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
