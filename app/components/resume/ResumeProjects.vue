@@ -3,6 +3,33 @@
   <div class="section-label">
     $ ls projects/
   </div>
+  <a 
+    class="project-card"
+    href="https://ironman-bygray.netlify.app/"
+    target="_blank"
+    rel="noopener"
+  >
+    <div class="project-head">
+      <span class="project-name">
+        IronMan / IronWoman
+      </span>
+      <span class="badge live">
+        Live project
+      </span>
+      <span class="project-arrow">
+        &#128279;
+      </span>
+    </div>
+    <p class="project-desc">
+      A mobile-first workout tracker with fully custom training programs, live set/rep/weight logging,
+      supersets, drag-and-drop reordering, a rest timer, and a workout journal with editable history.
+      Auth and data are backed by Supabase with row-level security.
+    </p>
+    <div class="project-meta">
+      Live demo · Vue 3 · Vite · Pinia · Supabase
+    </div>
+  </a>
+
   <div class="projects">
     <a 
       class="project-card"
