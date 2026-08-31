@@ -28,7 +28,7 @@
         Auth and data are backed by Supabase with row-level security.
       </p>
       <div class="project-meta">
-        Live demo · Vue 3 · Vite · Pinia · Supabase
+        Live demo · Vue 3 · JavaScript · Vite · Pinia · Supabase
       </div>
     </a>
 
@@ -80,7 +80,7 @@
         API integrations, and UI/UX practice pieces.
       </p>
       <div class="project-meta">
-        Older · Vue 3 · Nuxt 4
+        Older · Vue 3 · Nuxt 4 · JavaScript
       </div>
     </a>
   </div>
