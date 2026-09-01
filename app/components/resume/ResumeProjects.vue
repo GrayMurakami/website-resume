@@ -7,13 +7,13 @@
   <div class="projects">
     <a 
       class="project-card"
-      href="https://ironapp-bygray.netlify.app/"
+      href="https://iron-bygray.netlify.app/"
       target="_blank"
       rel="noopener"
     >
       <div class="project-head">
         <span class="project-name">
-          IronMan / IronWoman
+          IRON
         </span>
         <span class="badge live">
           Live project
