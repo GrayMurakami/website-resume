@@ -7,7 +7,7 @@
   <div class="projects">
     <a 
       class="project-card"
-      href="https://ironman-bygray.netlify.app/"
+      href="https://ironapp-bygray.netlify.app/"
       target="_blank"
       rel="noopener"
     >
