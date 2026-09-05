@@ -28,7 +28,7 @@
         Auth and data are backed by Supabase with row-level security.
       </p>
       <div class="project-meta">
-        Live demo · Vue 3 · JavaScript · Vite · Pinia · Supabase
+        Live demo · Vue 3 · JavaScript · Vite · Pinia · Supabase · Vitest
       </div>
     </a>
 
