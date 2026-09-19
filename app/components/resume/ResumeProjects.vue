@@ -54,7 +54,7 @@
         and a persisted dark/light theme. Auth and data are backed by Supabase with row-level security.
       </p>
       <div class="project-meta">
-        Live demo · Vue 3 · Vite · TypeScript · Pinia · Supabase
+        Live demo · Vue 3 · Vite · TypeScript · Pinia · Supabase · Vitest
       </div>
     </a>
 
