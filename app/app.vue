@@ -20,7 +20,7 @@
       Currently splitting time between frontend at a Japanese IT company and a security patch role at HPE. The two sound unrelated, but the HPE side has been a crash course in the kind of process discipline that startups never teach you.
     </p>
     <p class="summary">
-      At this point I know what I want: to keep growing specifically as a Vue frontend developer, going deeper into Vue 3 and Nuxt rather than spreading across frameworks. Looking for a team building an actual product, not another internal tool nobody asks for.
+      At this point I know what I want: to keep growing specifically as a Vue frontend developer, going deeper into Vue 3 and exploring Nuxt rather than spreading across frameworks. Looking for a team building an actual product, not another internal tool nobody asks for.
     </p>
     <ResumeStats />
       <div class="rule"></div>

@@ -62,11 +62,11 @@ onUnmounted(() => {
           </span>
           <br class="role-break">
           <span>
-            Vue&nbsp;3 / Nuxt&nbsp;4
+            Vue&nbsp;3 / JavaScript (ES6+)
           </span>
         </div>
         <div class="sub-role">
-          JavaScript (ES6+) · TypeScript
+           TypeScript · Nuxt&nbsp;4
         </div>
         <div class="sub-line">
           📍 Tokyo, Japan
