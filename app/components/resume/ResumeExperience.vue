@@ -70,50 +70,50 @@
         #mysql
       </span>
     </div>
-  </div>
-
-  <div class="exp-item-sub">
-    <div class="exp-head-sub">
-      <p class="exp-title">
-        <span class="exp-org-sub">
-          Client assignment:
-        </span>
-          Hewlett Packard Enterprise
-        <span class="exp-note">(dispatched, hybrid)</span>
-      </p>
-      <div class="exp-date">
-        2024.11 — present
+  
+    <div class="exp-item-sub">
+      <div class="exp-head-sub">
+        <p class="exp-title">
+          <span class="exp-org-sub">
+            Client assignment:
+          </span>
+            Hewlett Packard Enterprise
+          <span class="exp-note">(dispatched, hybrid)</span>
+        </p>
+        <div class="exp-date">
+          2024.11 — present
+        </div>
       </div>
-    </div>
-    <ul>
-      <li>
-        Security patching across production, DR and test environments (RHEL, Windows Server, AWS) 
-        under strict change-management and documentation standards.
-      </li>
-      <li>
-        Prepared change requests, procedure documents and status reports, and coordinated approvals 
-        with Japanese and international team members in Japanese and English.
-      </li>
-    </ul>
-    <div class="tag-row">
-      <span class="tag">
-        #rhel
-      </span>
-      <span class="tag">
-        #windows server
-      </span>
-      <span class="tag">
-        #aws
-      </span>
-      <span class="tag">
-        #bash
-      </span>
-      <span class="tag">
-        #sql
-      </span>
-      <span class="tag">
-        #oracle
-      </span>
+      <ul>
+        <li>
+          Security patching across production, DR and test environments (RHEL, Windows Server, AWS) 
+          under strict change-management and documentation standards.
+        </li>
+        <li>
+          Prepared change requests, procedure documents and status reports, and coordinated approvals 
+          with Japanese and international team members in Japanese and English.
+        </li>
+      </ul>
+      <div class="tag-row">
+        <span class="tag">
+          #rhel
+        </span>
+        <span class="tag">
+          #windows server
+        </span>
+        <span class="tag">
+          #aws
+        </span>
+        <span class="tag">
+          #bash
+        </span>
+        <span class="tag">
+          #sql
+        </span>
+        <span class="tag">
+          #oracle
+        </span>
+      </div>
     </div>
   </div>
 
@@ -168,8 +168,8 @@
 }
 
 .exp-item-sub {
-  margin-bottom: 40px;
-  padding-left: 26px;
+  margin-top: 28px;
+  padding-left: 10px;
 }
 
 .exp-head {
@@ -190,6 +190,7 @@
 
   & .exp-title {
     margin: 0;
+    color: var(--text-strong);
   }
 }
 
