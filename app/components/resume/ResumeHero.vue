@@ -132,7 +132,7 @@ onUnmounted(() => {
       <div class="dl-wrap">
         <a 
           ref="dlBtn"
-          href="/Sergei_Zuev_Frontend_Developer_CV.pdf"
+          href="/SERGEI_ZUEV_Frontend_Developer_CV.pdf"
           download
           class="dl-btn"
           :style="{ transform: btnTransform }"
