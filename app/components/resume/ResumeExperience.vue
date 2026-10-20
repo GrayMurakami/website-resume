@@ -74,7 +74,7 @@
 
   <div class="exp-item-sub">
     <div class="exp-head">
-      <div class="exp-org">
+      <div class="exp-org-sub">
         Client assignment:
       </div>
       <div class="exp-title">
@@ -133,13 +133,13 @@
     </p>
     <ul>
       <li>
-        Built the product frontend with HTML, CSS and JavaScript (ES6+).
+        Built core UI components (forms, modals, tabs, sliders) from scratch in vanilla JavaScript, without an existing design system.
       </li>
       <li>
-        Implemented interactive elements: forms, modals, tabs, sliders.
+        Refactored legacy markup and CSS to improve mobile responsiveness.
       </li>
       <li>
-        Refactored existing markup and CSS; improved page load speed and mobile responsiveness.
+        Contributed UI/UX ideas in team discussions.
       </li>
     </ul>
     <div class="tag-row">
@@ -150,7 +150,7 @@
         #css
       </span>
       <span class="tag">
-        #javascript
+        #javascript (vanilla)
       </span>
       <span class="tag">
         #responsive
@@ -168,7 +168,6 @@
 
 .exp-item-sub {
   margin-bottom: 40px;
-  border-left: 2px solid var(--text-muted);
   padding-left: 26px;
 }
 
@@ -196,7 +195,12 @@
 .exp-org {
   color: var(--accent-strong);
   font-size: 13.5px;
-  margin-bottom: 6px;
+  margin-bottom: 10px;
+}
+
+.exp-org-sub {
+  color: var(--accent-strong);
+  font-size: 13.5px;
 }
 
 .exp-item p {
@@ -205,6 +209,12 @@
 }
 
 .exp-item ul {
+  margin: 0 0 8px 0;
+  padding-left: 18px;
+  color: var(--text-body);
+}
+
+.exp-item-sub ul {
   margin: 0 0 8px 0;
   padding-left: 18px;
   color: var(--text-body);
