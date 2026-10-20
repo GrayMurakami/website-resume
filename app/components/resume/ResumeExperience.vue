@@ -74,11 +74,12 @@
 
   <div class="exp-item-sub">
     <div class="exp-head-sub">
-      <p class="exp-org-sub">
-        Client assignment:
-      </p>
       <p class="exp-title">
-        Hewlett Packard Enterprise <span>(dispatched, hybrid)</span>
+        <span class="exp-org-sub">
+          Client assignment:
+        </span>
+          Hewlett Packard Enterprise
+        <span class="exp-note">(dispatched, hybrid)</span>
       </p>
       <div class="exp-date">
         2024.11 — present
@@ -117,7 +118,7 @@
   </div>
 
   <div class="exp-item">
-    <div class="exp-head">
+    <div class="exp-head-sub">
       <div class="exp-title">
         Frontend Engineer
       </div>
@@ -185,6 +186,11 @@
   align-items: baseline;
   flex-wrap: wrap;
   gap: 4px 12px;
+  margin-bottom: 10px;
+
+  & .exp-title {
+    margin: 0;
+  }
 }
 
 .exp-title {
@@ -209,7 +215,21 @@
 .exp-org-sub {
   color: var(--accent-strong);
   font-size: 13.5px;
-  font-size: italic;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.exp-note {
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.exp-date {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  margin-left: auto;
 }
 
 .exp-item p {
