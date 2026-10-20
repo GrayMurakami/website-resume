@@ -21,16 +21,27 @@
     </p>
     <ul>
       <li>
-        Built and maintained the corporate portal and external site with JavaScript / TypeScript, PHP and WordPress.
+        Incrementally migrating a corporate portal (75 pages) and external site (15 pages) from WordPress PHP templates to Vue 3 without disrupting the live site, 
+        progressively converting existing JavaScript to TypeScript: components embedded in WP templates, Vite bundles loaded via wp_enqueue_script, 
+        server data passed as JSON in data attributes. 70 of 90 pages migrated to date.
       </li>
       <li>
-        Integrated Vue 3 components into the existing WordPress / PHP stack to modernize interfaces and improve UX.
+        Replaced 10 duplicated PHP templates (forms, search, dashboard) with 3 reusable Vue components using composables and Pinia, 
+        cutting new form delivery from 3 days to 1.
       </li>
       <li>
-        Implemented access control and page protection (AJAX, JSON, tokens, role-based access).
+        Built admin-issued 24-hour access links to restricted pages with server-side expiry validation and notifications; 
+        implemented server-side access control for 3 roles.
       </li>
       <li>
-        Migrated the entire corporate portal to a new domain and host, including a from-scratch environment and database setup.
+        Reduced LCP on the home and product pages from 3.2s to 2.5s (Lighthouse, mobile) via WebP, responsive srcset/sizes and hero image preloading.
+      </li>
+      <li>
+        Migrated the portal and site to a new host and domain with zero downtime and zero data loss: parallel deployment, 
+        database restore with table prefix change, 301 redirects, traffic cutover after verification.
+      </li>
+      <li>
+        Backend: designed database schema for leave and medical check-up tracking; set up server cron jobs for new-user processing and automated data updates.
       </li>
     </ul>
     <div class="tag-row">
@@ -38,38 +49,60 @@
         #vue3
       </span>
       <span class="tag">
+        #typescript
+      </span>
+      <span class="tag">
         #javascript
       </span>
       <span class="tag">
-        #typescript
+        #pinia
+      </span>
+      <span class="tag">
+        #vite
+      </span>
+      <span class="tag">
+        #wordpress
       </span>
       <span class="tag">
         #php8
       </span>
       <span class="tag">
-        #wordpress
+        #mysql
       </span>
     </div>
   </div>
 
-  <div class="exp-item">
+  <div class="exp-item-sub">
     <div class="exp-head">
+      <div class="exp-org">
+        Client assignment:
+      </div>
       <div class="exp-title">
-        Enterprise Project — Hewlett-Packard Enterprise (HPE), Japan
+        Hewlett Packard Enterprise (dispatched, hybrid)
       </div>
       <div class="exp-date">
         2024.11 — present
       </div>
     </div>
-    <div class="exp-org">
-      Concurrent with OWL Technology
-    </div>
-    <p>
-      Working within a large international corporate environment: following strict process and documentation standards, coordinating with enterprise infrastructure, and collaborating across an international team.
-    </p>
+    <ul>
+      <li>
+        Security patching across production, DR and test environments (RHEL, Windows Server, AWS) 
+        under strict change-management and documentation standards.
+      </li>
+      <li>
+        Prepared change requests, procedure documents and status reports, and coordinated approvals 
+        with Japanese and international team members in Japanese and English.
+      </li>
+    </ul>
     <div class="tag-row">
       <span class="tag">
         #rhel
+      </span>
+      <span class="tag">
+        #windows server
+      </span>
+      <span class="tag">
+        #aws
       </span>
       <span class="tag">
         #bash
@@ -79,9 +112,6 @@
       </span>
       <span class="tag">
         #oracle
-      </span>
-      <span class="tag">
-        #linux-administration
       </span>
     </div>
   </div>
@@ -134,6 +164,12 @@
   margin-bottom: 40px;
   border-left: 2px solid var(--card-border);
   padding-left: 16px;
+}
+
+.exp-item-sub {
+  margin-bottom: 40px;
+  border-left: 2px solid var(--text-muted);
+  padding-left: 26px;
 }
 
 .exp-head {
