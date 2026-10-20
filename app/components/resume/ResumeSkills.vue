@@ -10,25 +10,28 @@
       </div>
       <div class="tag-row">
         <span class="tag">
-          Vue 3 (Composition API)
+          Vue 3 (Composition API, composables)
         </span>
         <span class="tag">
-          Nuxt 4
-        </span>
-        <span class="tag">
-          JavaScript ES6+
+          JavaScript (ES6+)
         </span>
         <span class="tag">
           TypeScript
         </span>
         <span class="tag">
-          SPA
-        </span>
-        <span class="tag">
           Pinia
         </span>
         <span class="tag">
-          HTML5 / CSS3
+          HTML5/CSS3
+        </span>
+        <span class="tag">
+          Nuxt 4
+        </span>
+        <span class="tag">
+          SPA
+        </span>
+        <span class="tag">
+          Supabase
         </span>
         <span class="tag">
           Responsive layout
@@ -48,7 +51,7 @@
       </div>
       <div class="tag-row">
         <span class="tag">
-          Git / GitHub
+          Git/GitHub
         </span>
         <span class="tag">
           npm
@@ -60,19 +63,10 @@
           REST API
         </span>
         <span class="tag">
-          Supabase
+          jQuery
         </span>
         <span class="tag">
           Netlify
-        </span>
-        <span class="tag">
-          WordPress / PHP
-        </span>
-        <span class="tag">
-          AJAX / JSON
-        </span>
-        <span class="tag">
-          Role-based access
         </span>
       </div>
     </div>
@@ -83,7 +77,7 @@
       </div>
       <div class="tag-row">
         <span class="tag">
-          PHP 8
+          WordPress/PHP8
         </span>
         <span class="tag">
           MySQL
@@ -92,7 +86,10 @@
           Oracle
         </span>
         <span class="tag">
-          Linux administration
+          Linux (RHEL)
+        </span>
+        <span class="tag">
+          Bash
         </span>
         <span class="tag">
           AWS (infra/ops)
