@@ -25,11 +25,11 @@
     </p>
     <ResumeStats />
       <div class="rule"></div>
-    <ResumeSkills />
+    <ResumeExperience />
       <div class="rule"></div>
     <ResumeProjects />
       <div class="rule"></div>
-    <ResumeExperience />
+    <ResumeSkills />
       <div class="rule"></div>
     <ResumeEducation />
       <div class="rule"></div>
