@@ -31,9 +31,6 @@
           SPA
         </span>
         <span class="tag">
-          Supabase
-        </span>
-        <span class="tag">
           Responsive layout
         </span>
         <span class="tag">
@@ -64,6 +61,9 @@
         </span>
         <span class="tag">
           jQuery
+        </span>
+        <span class="tag">
+          Supabase
         </span>
         <span class="tag">
           Netlify
