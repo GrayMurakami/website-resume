@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="exp-org">
-      OWL Technology Co., Ltd. · Japan / Remote
+      OWL Technology Co., Ltd. · Japan | Remote
     </div>
     <p>
       Development and maintenance of the company's corporate portal and external site.
@@ -127,7 +127,7 @@
       </div>
     </div>
     <div class="exp-org">
-      Legl (UK) · Remote
+      Legl · United Kingdom | Remote
     </div>
     <p>
       Frontend development for an early-stage LegalTech SaaS product.
