@@ -31,13 +31,16 @@
           SPA
         </span>
         <span class="tag">
-          Responsive layout
-        </span>
-        <span class="tag">
           Component architecture
         </span>
         <span class="tag">
+          Responsive layout
+        </span>
+        <span class="tag">
           Forms &amp; validation
+        </span>
+        <span class="tag">
+          unit &amp; component testing
         </span>
       </div>
     </div>

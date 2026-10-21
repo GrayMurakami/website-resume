@@ -130,7 +130,7 @@
       Legl (UK) · Remote
     </div>
     <p>
-      Frontend development for an early-stage legaltech SaaS product.
+      Frontend development for an early-stage LegalTech SaaS product.
     </p>
     <ul>
       <li>
