@@ -108,7 +108,7 @@
           #bash
         </span>
         <span class="tag">
-          #sql
+          #
         </span>
         <span class="tag">
           #oracle
