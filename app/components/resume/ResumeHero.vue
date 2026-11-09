@@ -58,15 +58,15 @@ onUnmounted(() => {
         <h1>Sergei Zuev<span class="cursor">_</span></h1>
         <div class="role-line">
           <span>
-            &gt; Frontend Developer 
+            &gt; Frontend Engineer
           </span>
           <br class="role-break">
           <span>
-            Vue&nbsp;3 / JavaScript (ES6+)
+            Vue&nbsp;3 / JavaScript (ES6+) / TypeScript
           </span>
         </div>
         <div class="sub-role">
-           TypeScript · Nuxt&nbsp;4
+          Nuxt&nbsp;4 · PHP / MySQL
         </div>
         <div class="sub-line">
           📍 Tokyo, Japan

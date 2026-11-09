@@ -41,7 +41,16 @@
         database restore with table prefix change, 301 redirects, traffic cutover after verification.
       </li>
       <li>
-        Backend: designed database schema for leave and medical check-up tracking; set up server cron jobs for new-user processing and automated data updates.
+        Backend: built a custom WordPress plugin for the employee "My Page" (Vue 3 UI: leave balance, health check-up status, Drive links) with custom REST API endpoints (register_rest_route) and AJAX handlers; designed the database schema, DB event handlers and cron jobs for new-user processing and automated data updates.
+      </li>
+      <li>
+        Review teammates' pull requests and merge changes on GitHub; maintain code quality with ESLint and Prettier.
+      </li>
+      <li>
+        Implement multilingual pages (Japanese / English) and build UI from Figma designs together with the designer.
+      </li>
+      <li>
+        Security: CSRF protection with nonces, output escaping and server-side capability checks.
       </li>
     </ul>
     <div class="tag-row">
@@ -68,6 +77,12 @@
       </span>
       <span class="tag">
         #mysql
+      </span>
+      <span>
+        #rest-api
+      </span>
+      <span>
+        #figma
       </span>
     </div>
   

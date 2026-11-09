@@ -23,12 +23,12 @@
         </span>
       </div>
       <p class="project-desc">
-        A mobile-first workout tracker with fully custom training programs, live set/rep/weight logging,
-        supersets, drag-and-drop reordering, a rest timer, and a workout journal with editable history.
+        A mobile-first workout tracker with fully custom training programs, live set/rep/weight logging, supersets, drag-and-drop reordering, a rest timer, and a workout journal with editable history. 
+        Installable as a PWA with an offline app shell and auto-updating service worker. 
         Auth and data are backed by Supabase with row-level security.
       </p>
       <div class="project-meta">
-        Vue 3 · JavaScript · Vite · Pinia · Supabase · Vitest
+        Vue 3 · JavaScript · Vite · Pinia · Supabase · Vitest · PWA
       </div>
     </a>
 
@@ -50,11 +50,12 @@
         </span>
       </div>
       <p class="project-desc">
-        A task management app with a kanban board, drag-and-drop, subtasks, tags and search,
-        and a persisted dark/light theme. Auth and data are backed by Supabase with row-level security.
+        A task management app with a kanban board, drag-and-drop, subtasks, tags and search, and a persisted dark/light theme. 
+        Auth and data are backed by Supabase with row-level security; routes are protected with Vue Router guards. 
+        Every push and pull request runs lint, type check and unit tests in GitHub Actions.
       </p>
       <div class="project-meta">
-        Vue 3 ·TypeScript ·  Vite · Pinia · Supabase · Vitest
+        Vue 3 ·TypeScript ·  Vite · Pinia · Supabase · Vitest · GitHub Actions
       </div>
     </a>
 

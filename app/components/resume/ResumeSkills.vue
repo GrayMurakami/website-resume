@@ -1,142 +1,118 @@
+<script setup lang="ts">
+interface SkillGroup {
+  title: string;
+  skills: readonly string[];
+}
+
+const skillGroups: readonly SkillGroup[] = [
+  {
+    title: 'frontend/',
+    skills: [
+      'Vue 3 (Composition API, composables)',
+      'TypeScript',
+      'JavaScript (ES6+)',
+      'Pinia',
+      'Vue Router',
+      'Nuxt 4',
+      'HTML5/CSS3',
+      'SCSS',
+      'Component architecture',
+      'Responsive layout',
+      'Forms & validation',
+      'i18n',
+      'PWA',
+    ],
+  },
+  {
+    title: 'backend & data/',
+    skills: [
+      'PHP 8',
+      'WordPress (plugins, REST API)',
+      'MySQL',
+      'PostgreSQL (Supabase, RLS)',
+      'Oracle',
+      'REST API design',
+    ],
+  },
+  {
+    title: 'testing & quality/',
+    skills: ['Vitest', 'Vue Test Utils', 'ESLint', 'Prettier', 'Code review'],
+  },
+  {
+    title: 'devops & tools/',
+    skills: [
+      'Git/GitHub',
+      'GitHub Actions',
+      'Netlify (CI/CD)',
+      'Vite',
+      'npm',
+      'Linux (RHEL)',
+      'Bash',
+      'AWS (infra/ops)',
+    ],
+  },
+  {
+    title: 'performance/',
+    skills: ['Core Web Vitals', 'Lighthouse', 'Image optimization'],
+  },
+  {
+    title: 'collaboration/',
+    skills: ['Figma', 'Backlog', 'Technical docs (JP/EN)'],
+  },
+  {
+    title: 'ai/',
+    skills: ['Claude (refactoring, code review, tests, docs)'],
+  },
+];
+</script>
 
 <template>
   <div class="section-label">
     $ ls skills/
   </div>
+
   <div class="skills-grid">
-    <div class="col-frontend">
-      <div class="skills-title">
-        frontend/
-      </div>
+    <section
+      v-for="group in skillGroups"
+      :key="group.title"
+      class="skill-group"
+    >
+      <h3 class="skills-title">
+        {{ group.title }}
+      </h3>
       <div class="tag-row">
-        <span class="tag">
-          Vue 3 (Composition API, composables)
-        </span>
-        <span class="tag">
-          JavaScript (ES6+)
-        </span>
-        <span class="tag">
-          TypeScript
-        </span>
-        <span class="tag">
-          Pinia
-        </span>
-        <span class="tag">
-          HTML5/CSS3
-        </span>
-        <span class="tag">
-          Nuxt 4
-        </span>
-        <span class="tag">
-          SPA
-        </span>
-        <span class="tag">
-          Component architecture
-        </span>
-        <span class="tag">
-          Responsive layout
-        </span>
-        <span class="tag">
-          Forms &amp; validation
-        </span>
-        <span class="tag">
-          unit &amp; component testing
+        <span
+          v-for="skill in group.skills"
+          :key="skill"
+          class="tag"
+        >
+          {{ skill }}
         </span>
       </div>
-    </div>
-
-    <div class="col-tools">
-      <div class="skills-title">
-        tools/
-      </div>
-      <div class="tag-row">
-        <span class="tag">
-          Git/GitHub
-        </span>
-        <span class="tag">
-          npm
-        </span>
-        <span class="tag">
-          Vite
-        </span>
-        <span class="tag">
-          REST API
-        </span>
-        <span class="tag">
-          jQuery
-        </span>
-        <span class="tag">
-          Supabase
-        </span>
-        <span class="tag">
-          Netlify
-        </span>
-      </div>
-    </div>
-
-    <div class="col-backend">
-      <div class="skills-title">
-        backend &amp; infra/
-      </div>
-      <div class="tag-row">
-        <span class="tag">
-          WordPress/PHP8
-        </span>
-        <span class="tag">
-          MySQL
-        </span>
-        <span class="tag">
-          Oracle
-        </span>
-        <span class="tag">
-          Linux (RHEL)
-        </span>
-        <span class="tag">
-          Bash
-        </span>
-        <span class="tag">
-          AWS (infra/ops)
-        </span>
-      </div>
-    </div>
+    </section>
   </div>
 </template>
 
 <style scoped>
 .skills-grid {
-  display: grid;
-  grid-template-columns: 1fr 1.25fr;
-  grid-template-areas: "frontend tools" "frontend backend";
-  gap: 18px 24px;
+  column-count: 2;
+  column-gap: 32px;
   margin-bottom: 26px;
+
+  @media (max-width: 600px) {
+    column-count: 1;
+  }
 }
 
-.col-frontend { 
-  grid-area: frontend; 
-}
-
-.col-tools { 
-  grid-area: tools; 
-}
-
-.col-backend { 
-  grid-area: backend; 
-  align-self: start; 
+.skill-group {
+  break-inside: avoid;
+  margin-bottom: 20px;
 }
 
 .skills-title {
+  margin: 0 0 8px;
+  font-size: inherit;
   font-weight: 600;
-  margin-bottom: 8px;
   color: var(--text-strong);
-}
-
-@media (max-width: 480px) {
-  .skills-grid {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "frontend"
-      "tools"
-      "backend";
-  }
 }
 </style>

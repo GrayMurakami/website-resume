@@ -14,14 +14,16 @@
       $ cat summary.md
     </div>
     <p class="summary">
-      Five years of frontend development: from building UI in vanilla JavaScript for an early-stage LegalTech SaaS 
-      to modernizing a legacy WordPress/PHP corporate portal with Vue 3 and TypeScript – 70 of 90 pages migrated so far, 
-      without disrupting the live site. There's a particular satisfaction in dropping a Vue 3 component into a stack that's never seen one and watching it not break anything. 
-      Alongside this, I'm on a client assignment at Hewlett Packard Enterprise, working in enterprise production environments under strict change management.
+      Five years of frontend development, with hands-on backend skills in PHP and MySQL. 
+      Currently modernizing a legacy WordPress/PHP corporate portal with Vue 3 and TypeScript: 70 of 90 pages migrated so far, without disrupting the live site. 
+      There's a particular satisfaction in dropping a Vue 3 component into a stack that's never seen one and watching it not break anything.
     </p>
     <p class="summary">
-      Focused on growing as a Vue developer: going deeper into Vue 3 and Nuxt 4 rather than spreading across frameworks. 
-      Looking for a product team with room to grow technically.  
+      I work across the stack when needed: REST endpoints, database schema design, server-side access control, cron jobs, hosting migrations. 
+      Alongside this, I lead a team of 3 on a client assignment at Hewlett Packard Enterprise, working in enterprise production environments under strict change management.
+    </p>
+    <p class="summary">
+      Looking for a product team where I can own features end to end, with Vue as my core and backend work where it helps the product.  
     </p>
     <ResumeStats />
       <div class="rule"></div>
@@ -32,6 +34,8 @@
     <ResumeSkills />
       <div class="rule"></div>
     <ResumeEducation />
+      <div class="rule"></div>
+    <ResumeCertifications />
       <div class="rule"></div>
     <ResumeLanguages />
   </div>
