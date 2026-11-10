@@ -78,7 +78,7 @@
       <span class="tag">
         #mysql
       </span>
-      <span class="tag>
+      <span class="tag">
         #rest-api
       </span>
       <span class="tag">
