@@ -78,10 +78,10 @@
       <span class="tag">
         #mysql
       </span>
-      <span>
+      <span class="tag>
         #rest-api
       </span>
-      <span>
+      <span class="tag">
         #figma
       </span>
     </div>
