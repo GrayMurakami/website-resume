@@ -79,7 +79,7 @@
         #mysql
       </span>
       <span class="tag">
-        #rest-
+        #rest-api
       </span>
       <span class="tag">
         #figma
