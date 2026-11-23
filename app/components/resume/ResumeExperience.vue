@@ -82,7 +82,7 @@
         #rest-api
       </span>
       <span class="tag">
-        #figma2
+        #figma
       </span>
     </div>
   
